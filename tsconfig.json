@@ -1,0 +1,26 @@
+{
+    "compilerOptions":{
+        "strict": false,
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "es2018",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "declaration": false,
+        "rootDir": "",
+        "outDir": "dist",
+        "baseUrl": ".",
+        "lib": ["ES2020.Promise"],
+        "typeRoots": [
+            "node_modules/@types",
+            "types"
+        ],
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitOverride": true,
+        "useUnknownInCatchVariables": true,
+        "skipLibCheck": true,
+    },
+    "exclude": ["node_modules"]
+}
